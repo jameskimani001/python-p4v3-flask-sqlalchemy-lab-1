@@ -1,5 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
-from marshmallow_sqlalchemy import SQLAlchemyAutoSchema  # This automatically handles serialization for us
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 
 # Initialize the SQLAlchemy instance
 db = SQLAlchemy()
